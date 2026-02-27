@@ -30,7 +30,7 @@ const Chat = () => {
 
   return (
     <div className="max-w-2xl mx-auto p-6 font-sans">
-      <h2 className="text-xl font-semibold mb-4 text-gray-800">Product Chat</h2>
+      <h2 className="text-2xl font-bold mb-4 text-gray-800 text-indigo-500">Product Chat</h2>
 
       <div className="border border-gray-200 rounded-lg h-[420px] overflow-y-auto p-4 mb-4 bg-gray-50 flex flex-col gap-3">
         {messages.map((m, i) => (
