@@ -30,7 +30,7 @@ This repository contains the **frontend codebase** built with React.
 ## Installation
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/productpitch-frontend.git
+git clone https://github.com/girijakangutkar/productPitch.git
 
 # Navigate into the project
 cd productpitch-frontend
