@@ -1,16 +1,42 @@
-# React + Vite
+# ProductPitch - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ProductPitch is a modern web application that allows users to:
+- Browse a list of products
+- Search products using a search bar
+- Filter products by categories
+- Chat with an AI assistant to get product recommendations from the dataset
 
-Currently, two official plugins are available:
+This repository contains the **frontend codebase** built with React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Features
+- **Product Search**: Quickly find products using a search bar.
+- **Category Filters**: Narrow down results by selecting categories.
+- **AI Chat Integration**: Ask the AI for product suggestions based on prompts.
+- **Responsive UI**: Optimized for desktop and mobile.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
+- React
+- Vite / CRA (depending on setup)
+- TailwindCSS / CSS Modules (styling)
+- Axios (API calls)
+- Context API / Redux (state management)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Installation
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/productpitch-frontend.git
+
+# Navigate into the project
+cd productpitch-frontend
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
